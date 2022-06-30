@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-family: 'Niconne', cursive;
+    font-size: 200%;
 }
 .hero{
     background-image: url(./image/img4.jpg);
@@ -16,13 +22,13 @@
     font-size: 100%;
 }
 .button1{
-    background-color: rgb(231, 73, 16);
+    border-radius: 1px !important;
+    background-color: rgb(251, 109, 58) !important;
+    box-shadow: 1px 3px 4px 2px rgb(251, 109, 58);
+    padding-right: 3%;
+    padding-left: 3%;
+    
     border: none;
-    
-    
-    font-weight: 600;
-    box-shadow: 0px 5px 13px 3px rgb(231 73 16 / 89%)
-    ;
 }
 .button1:hover{
     background-color: orangered;
@@ -95,7 +101,7 @@
 }
 .section3 .mess {
     text-align: center;
-    margin-top: 4rem;
+    
     background-image: url(./image/img18.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -148,3 +154,70 @@
     font-size: small;
     color: gray;
 } */
+.newsInput button{
+    background-color: orangered;
+    border: none;
+}
+.newsInput button:hover{
+    background-color: rgb(211, 58, 3);
+    
+}
+.section5{
+    background-image: url(./image/img13.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    
+}
+.navbar1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: blue;
+    cursor: pointer;
+    
+}
+.menu{
+    width: 80%;
+    margin: auto;
+}
+iframe{
+    width: 100%;
+}
+.word{
+    color:rgb(6, 37, 122);
+}
+.word1{
+    font-size: 80%;
+}
+.cost{
+    margin-left: 25%;
+    font-family:  cursive;
+}
+.explore button{
+    margin-left: 40%;
+}
+@media (max-width:877px) {
+    .box{
+        display: none;
+    }
+    .newsInput{
+        width: 50%;
+    }
+    
+}
