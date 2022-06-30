@@ -210,14 +210,19 @@ iframe{
     font-family:  cursive;
 }
 .explore button{
-    margin-left: 40%;
+    margin-left: 45%;
+    box-shadow: 0px 5px 13px 3px rgb(231 73 16 / 89%)
+    ;
 }
-@media (max-width:877px) {
-    .box{
-        display: none;
-    }
-    .newsInput{
-        width: 50%;
-    }
-    
+.box{
+    box-shadow: -4px 2px 4px 0px grey;
+    ;
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: -2px 2px 4px 0px grey;
+    ;
+}
+.mid{
+    box-shadow: -2px 1px 2px gainsboro;
 }
