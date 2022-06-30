@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .logo{
-    font-family: 'Niconne', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 200%;
+    color: purple;
 }
 .hero{
     background-image: url(./image/img4.jpg);
@@ -16,7 +20,9 @@
     min-height: 50vh;
 }
 .text{
-    font-size: 300%;
+    font-size: 380%;
+    width: 59%;
+    font-family: 'Quicksand', sans-serif;
 }
 .text1{
     font-size: 100%;
@@ -117,43 +123,11 @@
 
 .play{
     border-radius:50% ;
-  
-    /* height: 3rem;
-    width: 5%; */
-    background-color:  rgba(0, 0, 255, 0.048);
+   background-color:  rgba(0, 0, 255, 0.048);
     color: white;
     border: 2px solid white;
 }
-/* .imm img{
-    height: 10rem;
-    width: 14rem;
-    border-radius: 15px 15px 0px 0px;
-    position: relative;
-    top: 15px;
 
-    
-} */
-/* .ham{
-    min-height: 5rem;
-    width: 14rem;
-    border-radius: 15px;
-    padding: 10px;
-}
-.ham h5{
-    padding-top: 30px;
-    font-size: 16px;
-    font-family: cursive;
-    color: rgba(3, 14, 77, 0.822);
-}
-.ham span{
-    margin-left: 20px;
-    color: orangered;
-    font-family: cursive;
-}
-.ham p{
-    font-size: small;
-    color: gray;
-} */
 .newsInput button{
     background-color: orangered;
     border: none;
@@ -201,18 +175,21 @@ iframe{
 }
 .word{
     color:rgb(6, 37, 122);
+    font-family: 'Libre Baskerville', serif;
 }
 .word1{
     font-size: 80%;
 }
 .cost{
-    margin-left: 25%;
+    /* margin-left: 15%; */
     font-family:  cursive;
 }
 .explore button{
-    margin-left: 45%;
+    margin-left: 40%;
     box-shadow: 0px 5px 13px 3px rgb(231 73 16 / 89%)
     ;
+    border: none;
+    align-items: center;
 }
 .box{
     box-shadow: -4px 2px 4px 0px grey;
@@ -223,6 +200,105 @@ iframe{
     box-shadow: -2px 2px 4px 0px grey;
     ;
 }
+.box1 .ham{
+    font-family: 'Libre Baskerville', serif;
+    
+}
 .mid{
     box-shadow: -2px 1px 2px gainsboro;
+}
+.best h3{
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+}
+.box3 h3{
+    width: 90%;
+    font-family: 'Libre Baskerville', serif;
+    color:rgb(2, 36, 63)
+}
+
+@media (max-width:1199px) {
+    .img1 img {
+        width: 30%;
+        height: 7rem;
+        position: relative;
+        top: 8rem;
+        left: 1.5rem;
+        border-radius: 10px;
+    }
+    
+    .img2 img {
+        width: 40%;
+        height: 13rem;
+        position: relative;
+        top: 8.2rem;
+        right: 20px;
+        border-radius: 10px;
+    }
+    
+    .img3 img {
+        width: 40%;
+        height: 13rem;
+        position: relative;
+        left: 10.3rem;
+        bottom: 20rem;
+        border-radius: 10px;
+    }
+    
+    .img4 img {
+        width: 30%;
+        height: 7rem;
+        position: relative;
+        left: 10.3rem;
+        bottom: 19.7rem;
+        border-radius: 10px;
+    }
+    .text{
+        width: 60%;
+    }
+}
+@media (max-width:991px) {
+    .imm{
+        display: none;
+    }
+    .text{
+        width: 80%;
+    }
+    .best{
+        /* text-align: center; */
+        width: 100%;
+    }
+}
+@media (max-width:588px) {
+    .text{
+        width: 100%;
+    }
+}
+@media (max-width:407px) {
+    .bnt .button3{
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:425px) {
+    .text{
+        font-size: 250%;
+        width: 100%;
+    }
+}
+@media (max-width:575px) {
+    .box1{
+        margin-bottom: 20px;
+    }
+    .explore button{
+        align-items: center;
+        margin-left: 30%;
+    }
+   
+}
+@media (max-width:362px) {
+    .explore button{
+        margin-left: 25%;
+    }
 }
