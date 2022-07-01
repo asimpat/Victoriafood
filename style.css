@@ -21,7 +21,7 @@ ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50vh;
+    height: 80vh;
 }
 .text{
     font-size: 380%;
@@ -154,7 +154,7 @@ ul li a:hover{
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50vh;
+    height: 62vh;
     
 }
 .navbar1 {
