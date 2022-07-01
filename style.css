@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&family=Smooch&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,10 @@
 .logo{
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
-    color: purple;
+    color: purple !important;
+}
+ul li a:hover{
+    color: rgb(16, 155, 219)  !important;
 }
 .hero{
     background-image: url(./image/img4.jpg);
@@ -30,14 +34,17 @@
 .button1{
     border-radius: 1px !important;
     background-color: rgb(251, 109, 58) !important;
-    box-shadow: 1px 3px 4px 2px rgb(251, 109, 58);
+    box-shadow: 0px 5px 13px 3px rgb(231 73 16 / 89%)
+    ;
     padding-right: 3%;
     padding-left: 3%;
     
     border: none;
 }
 .button1:hover{
-    background-color: orangered;
+    background-color:rgb(16, 155, 219) !important ;
+    box-shadow: 0px 5px 13px 3px rgb(16, 155, 219);
+    ;
 }
 .button2{
     background-color: rgb(231, 73, 16);
@@ -51,7 +58,9 @@
    
 }
 .button2:hover{
-    background-color: orangered;
+    background-color:rgb(16, 155, 219) ;
+    box-shadow: 0px 5px 13px 3px rgb(16, 155, 219)
+    ;
 }
 .section1{
     background-image: url(./image/img5.jpg);
@@ -179,10 +188,15 @@ iframe{
 }
 .word1{
     font-size: 80%;
+    color: rgb(182, 179, 179);
+}
+.word11{
+    font-size: 100%;
+    color: rgb(182, 179, 179);
 }
 .cost{
-    /* margin-left: 15%; */
-    font-family:  cursive;
+    font-family: cursive;
+
 }
 .explore button{
     margin-left: 40%;
@@ -192,17 +206,17 @@ iframe{
     align-items: center;
 }
 .box{
-    box-shadow: -4px 2px 4px 0px grey;
-    ;
+    box-shadow: 3px 12px 5px 0px #eee;
 }
 .box:hover{
     cursor: pointer;
-    box-shadow: -2px 2px 4px 0px grey;
+    box-shadow: 3px 7px 5px 7px rgb(231, 230, 230);;
     ;
+    transition: 0.4s;
 }
 .box1 .ham{
     font-family: 'Libre Baskerville', serif;
-    
+    color: navy;
 }
 .mid{
     box-shadow: -2px 1px 2px gainsboro;
@@ -215,6 +229,9 @@ iframe{
     width: 90%;
     font-family: 'Libre Baskerville', serif;
     color:rgb(2, 36, 63)
+}
+.icon{
+    color: rgb(182, 179, 179);
 }
 
 @media (max-width:1199px) {
