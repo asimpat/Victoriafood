@@ -8,14 +8,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* navbar starts */
 .logo{
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
     color: purple !important;
 }
+.navbar1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: blue;
+    cursor: pointer;
+    
+}
+.menu{
+    width: 80%;
+    margin: auto;
+}
 ul li a:hover{
     color: rgb(16, 155, 219)  !important;
 }
+/* navbar ends */
 .hero{
     background-image: url(./image/img4.jpg);
     background-position: center;
@@ -157,6 +185,7 @@ ul li a:hover{
     min-height: 50vh;
     
 }
+/* moving images */
 .con {
     position: relative;
     width: 100%;
@@ -199,32 +228,11 @@ ul li a:hover{
     transform: translate(-50%, -50%);
     text-align: center;
   }
-.navbar1 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 5rem;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
+  /* moving images end */
 
-}
-nav ul li a{
-    color: black;
-    font-size: 15px;
-}
-nav ul li a:hover{
-    color: blue;
-    cursor: pointer;
-    
-}
-.menu{
-    width: 80%;
-    margin: auto;
-}
+
+  
+
 iframe{
     width: 100%;
 }
