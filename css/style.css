@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&family=Smooch&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300&family=Libre+Baskerville:wght@700&family=Poppins:wght@300&family=Quicksand:wght@300&family=Smooch&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 /* navbar starts */
+
 .logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 200%;
     color: purple !important;
 }
@@ -29,7 +30,6 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 10px;
-
 }
 
 nav ul li a {
@@ -40,7 +40,10 @@ nav ul li a {
 nav ul li a:hover {
     color: blue;
     cursor: pointer;
+}
 
+.menu1 {
+    color: #1b6875 !important;
 }
 
 .menu {
@@ -52,9 +55,11 @@ ul li a:hover {
     color: rgb(16, 155, 219) !important;
 }
 
+
 /* navbar ends */
+
 .hero {
-    background-image: url(./image/img4.jpg);
+    background-image: url(/image/img4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,13 +67,17 @@ ul li a:hover {
 }
 
 .text {
-    font-size: 380%;
-    width: 59%;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    width: 70%;
+    font-family: "Quicksand", sans-serif;
+    color: #1b6875 !important;
 }
 
 .text1 {
-    font-size: 100%;
+    font-size: 1rem;
+    width: 100%;
+    color: #1b6875 !important;
+    font-weight: 600 !important;
 }
 
 .button1 {
@@ -77,39 +86,37 @@ ul li a:hover {
     box-shadow: 0px 5px 13px 3px rgb(231 73 16 / 89%);
     padding-right: 3%;
     padding-left: 3%;
-
     border: none;
 }
 
 .button1:hover {
-    background-color: rgb(16, 155, 219) !important;
-    box-shadow: 0px 5px 13px 3px rgb(16, 155, 219);
-    ;
+    background-color: #1b6875 !important;
+    box-shadow: 0px 5px 13px 3px #1b6875;
 }
 
 .button2 {
     background-color: rgb(231, 73, 16);
     border: none;
-
-
     font-weight: 600;
     box-shadow: 0px 5px 13px 3px rgb(231 73 16 / 89%);
     border-radius: 50%;
-
 }
 
 .button2:hover {
-    background-color: rgb(16, 155, 219);
+    background-color: #1b6875;
     box-shadow: 0px 5px 13px 3px rgb(16, 155, 219);
+}
+
+.button3 {
+    color: #1b6875 !important;
 }
 
 .button3:hover {
     color: rgb(231, 73, 16) !important;
-
 }
 
 .section1 {
-    background-image: url(./image/img5.jpg);
+    background-image: url(/image/img5.jpg);
     /* min-height: 1000px; */
     background-position: center;
     background-size: cover;
@@ -121,8 +128,6 @@ ul li a:hover {
 .section1 .img {
     border-radius: 40px 0px 40px 0px;
     box-shadow: -10px 5px 10px rgba(1, 41, 21, 0.822);
-    ;
-
     width: 90%;
     height: 35rem;
 }
@@ -165,8 +170,7 @@ ul li a:hover {
 
 .section3 .mess {
     text-align: center;
-
-    background-image: url(./image/img18.png);
+    background-image: url(/image/img18.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +178,6 @@ ul li a:hover {
     background-color: rgba(0, 0, 255, 0.164);
     height: 20rem;
     width: 100%;
-
     color: white;
     border-radius: 10px;
 }
@@ -193,19 +196,19 @@ ul li a:hover {
 
 .newsInput button:hover {
     background-color: rgb(211, 58, 3);
-
 }
 
 .section5 {
-    background-image: url(./image/img13.png);
+    background-image: url(/image/img13.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
-
 }
 
+
 /* moving images */
+
 .con {
     position: relative;
     width: 100%;
@@ -220,14 +223,13 @@ ul li a:hover {
 
 .overlay {
     position: absolute;
-
     bottom: 100%;
     left: 0;
     right: 0;
     height: 0;
     width: 100%;
     overflow: hidden;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-color: rgba(21, 10, 66, 0.281);
 }
 
@@ -249,10 +251,8 @@ ul li a:hover {
     text-align: center;
 }
 
+
 /* moving images end */
-
-
-
 
 iframe {
     width: 100%;
@@ -260,7 +260,7 @@ iframe {
 
 .word {
     color: rgb(6, 37, 122);
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 .word1 {
@@ -275,7 +275,6 @@ iframe {
 
 .cost {
     font-family: cursive;
-
 }
 
 .explore button {
@@ -292,13 +291,11 @@ iframe {
 .box:hover {
     cursor: pointer;
     box-shadow: 3px 7px 5px 7px rgb(231, 230, 230);
-    ;
-    ;
     transition: 0.4s;
 }
 
 .box1 .ham {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     color: navy;
 }
 
@@ -308,13 +305,13 @@ iframe {
 
 .best h3 {
     width: 100%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 .box3 h3 {
     width: 90%;
-    font-family: 'Libre Baskerville', serif;
-    color: rgb(2, 36, 63)
+    font-family: "Libre Baskerville", serif;
+    color: rgb(2, 36, 63);
 }
 
 .icon p {
@@ -325,8 +322,6 @@ iframe {
     font-size: 300%;
     position: relative;
     left: 5%;
-
-
 }
 
 .line {
@@ -335,7 +330,7 @@ iframe {
     width: 60%;
 }
 
-@media (max-width:1199px) {
+@media (max-width: 1199px) {
     .img1 img {
         width: 30%;
         height: 7rem;
@@ -344,7 +339,6 @@ iframe {
         left: 1.5rem;
         border-radius: 10px;
     }
-
     .img2 img {
         width: 40%;
         height: 13rem;
@@ -353,7 +347,6 @@ iframe {
         right: 20px;
         border-radius: 10px;
     }
-
     .img3 img {
         width: 40%;
         height: 13rem;
@@ -362,7 +355,6 @@ iframe {
         bottom: 20rem;
         border-radius: 10px;
     }
-
     .img4 img {
         width: 30%;
         height: 7rem;
@@ -371,81 +363,105 @@ iframe {
         bottom: 19.7rem;
         border-radius: 10px;
     }
-
     .text {
         width: 60%;
     }
+    .box3 {
+        text-align: center;
+        /* font-size: 1rem; */
+    }
+    .best {
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .imm {
         display: none;
     }
-
     .text {
         width: 80%;
     }
-
     .best {
-        /* text-align: center; */
         width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        margin: 0 auto;
     }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .box3 {
         position: relative;
         top: 20px;
     }
 }
 
-@media (max-width:588px) {
+@media (max-width: 588px) {
     .text {
         width: 100%;
     }
 }
 
-@media (max-width:407px) {
+@media (max-width: 407px) {
     .bnt .button3 {
         display: block;
-        margin-bottom: 15px;
-        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .bnt .button1 {
+        width: 100%;
+        padding: 10px;
     }
 }
 
-@media (max-width:425px) {
+@media (max-width: 435px) {
+    .bnt .button2 {
+        margin-top: 10px;
+        position: relative;
+        left: 42%;
+    }
+}
+
+@media (max-width: 425px) {
     .text {
         font-size: 250%;
         width: 100%;
     }
 }
 
-@media (max-width:575px) {
+@media (max-width: 425px) {
+    .text {
+        font-size: 250%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
     .box1 {
         margin-bottom: 20px;
     }
-
     .explore button {
         align-items: center;
         margin-left: 30%;
     }
-
 }
 
-@media (max-width:362px) {
+@media (max-width: 362px) {
     .explore button {
         margin-left: 25%;
     }
 }
 
-@media (max-width:280px) {
+@media (max-width: 280px) {
     .text {
         width: 100%;
         font-size: 35px;
     }
-
     .text1 {
         font-size: 10px;
-
     }
 }
